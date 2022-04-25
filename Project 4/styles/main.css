@@ -1,0 +1,60 @@
+body {
+    background-image: url('../img/crumpled\ paper.jpg');
+    margin-right: 20%;
+    margin-left: 20%;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#start{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 5px;
+    width: 800px;
+
+}
+.temperature{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding-top: 21px;
+}
+.button {
+    background-color: darkcyan;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 1px;
+}
+.button:hover {
+    border: 1px solid black;
+    padding: 0px;
+}
+.filler {
+    min-width: 20px;
+}
+button {
+    
+    position: relative;
+}
+input[type=text] {
+    background-color: darkcyan;
+    color: white;
+}
+input[type=text]:focus {
+    background-color: gray;
+}
+.error {
+    color: red;
+}
+.hidden {
+    display: none;
+}

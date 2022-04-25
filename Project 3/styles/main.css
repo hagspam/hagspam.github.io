@@ -1,0 +1,36 @@
+body {
+    background-image: url('../img/crumpled\ paper.jpg');
+    margin-right: 20%;
+    margin-left: 20%;
+}
+#startPuns{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(158, 158, 158, 0.479);
+    border-radius: 10px;
+    width: 800px;
+}
+section {
+    position: relative;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    min-height: 50px;
+    border: 1px solid black;
+    background-color: rgba(153, 152, 152, 0.479);
+}
+button {
+    
+    position: absolute;
+    right: 15px;
+}
+.punchline {
+    padding-top: 10px;
+    flex-direction: column;
+    color: rgb(45, 45, 124);
+}
+
+.hidden {
+    display: none;
+}

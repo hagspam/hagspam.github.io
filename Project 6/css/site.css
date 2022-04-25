@@ -1,0 +1,13 @@
+  .validationError {
+      height: 26px;
+      color: red;
+  }
+
+  #characterEditArea {
+    display: none;
+  }
+  
+  #charactersListArea {
+    display: none;
+  }
+

@@ -1,0 +1,65 @@
+html {
+    font: 12pt Roboto, Helvetica;
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+  } 
+th, td {
+    border: 1px solid black;
+    width: 16%;
+    text-align: center;
+    vertical-align: top;
+  } 
+tr:nth-child(even){
+    background-color: darkgrey;
+    border: 1px solid grey;
+    border-top: 1px black;
+    border-bottom: 1px black;
+}      
+body {
+    background-image: url('../img/crumpled\ paper.jpg');
+    margin: 20px;
+  }
+p {
+      text-indent: 20px;
+      margin-bottom: 10px;
+  }
+#me {
+      float: right;
+      padding: 15px;
+      margin: 0 0 0 15px;
+  }
+h1 {
+      font: 30pt Lucida Handwriting;
+      text-decoration: underline;
+  }
+h2{
+      font: 20pt bolder;
+  }
+td[class="homework"]{
+    background-color: rgb(11, 167, 11);
+    border-color: rgb(5, 104, 5); 
+    border-style: solid;
+}
+td[class="math"]{
+    background-color: darkorange;
+    border-color: rgb(211, 116, 1);
+    border-style: solid;
+}
+td[class="network"]{
+    background-color: darksalmon;
+    border-color: rgb(167, 105, 84);
+    border-style: solid;
+}td[class="web"]{
+    background-color: darkseagreen;
+    border-color: rgb(103, 134, 103);
+    border-style: solid;
+}td[class="os"]{
+    background-color: darkturquoise;
+    border-color: rgb(0, 160, 163);
+    border-style: solid;
+}
+div[class="document"]{
+    margin: 0 25%;
+}
