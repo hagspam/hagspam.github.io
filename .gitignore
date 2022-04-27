@@ -1,0 +1,10 @@
+#Windows
+Thumbs.db
+Desktop.ini
+
+#VS Code
+.vs
+.vscode
+
+#Webstorm
+.idea
